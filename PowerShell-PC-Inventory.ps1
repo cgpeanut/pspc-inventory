@@ -8,6 +8,7 @@
 # If hostname exists in the CSV file, it will overwrite it with the latest information so that the inventory is up to date and there is no duplicate information.
 # It is designed to be run as a login script and/or a scheduled/immediate task run by a domain user. Elevated privileges are not required.
 #
+
 # IMPORTANT: Parts that may need be modified for your environment are double commented (##). The rest of the script can safely be left as is.
 
 ## CSV File Location (If this doesn't exist, the script will attempt to create it. Users will need full control of the file.)
